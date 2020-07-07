@@ -1,0 +1,58 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-navbar{
+    background-color:#F0FFF0!important ;
+}
+.container{
+    background-color: #F0FFF0;
+}
+.nav-name{
+    font-weight: 600;
+}
+.icon-img{
+    width: 220px;
+    height: 50px;
+    padding-left: 60px;
+}
+.schedule{
+    color: #21B573;
+}
+.top-description-2{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #000000;
+}
+.top-description-1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+.top-description-3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6B6B;
+}
+.sign-in{
+    background-color:#21B573 ;
+    border-radius: 33px;
+    width: 104px;
+    height: 43px;
+    text-align: center;
+    color: white!important;
+    font-weight: 600;
+}
+.get-started{
+width: 153px;
+height: 43px;
+padding: 12px 36px;
+background: #21B573;
+border-radius: 33px;
+color: white;
+text-align: center;
+font-weight: 600;
+}
+.top-section{
+    padding: 100px;
+}
