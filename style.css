@@ -6,8 +6,9 @@
 .bg-navbar{
     background-color:#F0FFF0!important ;
 }
-.top-part, .top-section, .aboutus{
+.top-part, .top-section{
     background-color: #F0FFF0;
+    margin-top: 0px;
 }
 .nav-name{
     font-weight: 600;
@@ -35,7 +36,10 @@
     background-color: #21B573;
     }
 .container{
-    margin-top: 80px;
+    margin-top: 50px;
+}
+.col-md-5{
+    height: 350px;
 }
 .top-description-2{
     font-size: 48px;
@@ -157,16 +161,77 @@ font-weight: 600;
     color: #000000;
 }
 .t-text{
-    padding: 50px 220px 100px 220px;
+    padding: 50px 220px 0px 220px;
 }
+
+
+/* Article part */
+
+.articles-container {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 50%;
+    grid-gap:10px;
+    height: 400px;
+    
+  /* Add Grid Properties */
+  
+  }
+  
+  .article {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .article-1 {
+    background-image: url("media/photos/article5.png");
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: -1;
+  }
+  .article-1:hover{
+      transform: scale(1.2);
+  }
+  
+  .article-2 {
+    background-image: url("media/photos/article2.png");
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    
+  }
+  .article-2:hover{
+    transform: scale(1.2);
+  }
+  .article-3 {
+    background-image: url("media/photos/article3.png");
+    grid-row: 2 / -1;
+    grid-column: 2 / -1;
+  }
+  .article-3:hover{
+    transform: scale(1.2);
+  }
+  .Article-head{
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+/* Article part */
 
 /* last part */
 
 .last-part{
+    margin-top: 30px;
     background: #282531;
     width: 1345px;
     height: 369px;
-    padding: 50px;
+    padding: 20px;
 }
 .lastbox{
     color: ivory;
@@ -177,19 +242,15 @@ font-weight: 600;
 }
 
 /* about us */
-
 .aboutus{
-    padding: 20px 40px;
-}
-.info{
-    text-align: center;
-    color: #000000;
-    font-weight: 700;
+    background-color:#282531 ;
+
 }
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 72px;
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -226,4 +287,10 @@ footer{
     background-color:#282531 ;
     text-align: center;
     color: ivory;
+}
+.box9{
+    background-image: url("media/photos/article1.png");
+    height:;
+    width: auto;
+    
 }
