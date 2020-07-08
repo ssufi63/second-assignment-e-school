@@ -18,9 +18,6 @@
     height: 50px;
     padding-left: 60px;
 }
-.schedule{
-    color: #21B573;
-}
 .carousel-indicators li {
     background-color: #CECECE;
     width: 20px;
@@ -66,15 +63,32 @@
     color: white!important;
     font-weight: 600;
 }
-.get-started{
+.get-started1, .get-started2, .get-started3{
 width: 153px;
 height: 23px;
 padding: 12px 36px;
-background: #21B573;
 border-radius: 33px;
 color: white;
 text-align: center;
 font-weight: 600;
+}
+.get-started1{
+    background: #21B573;
+}
+.get-started2{
+    background: #273c75;
+}
+.get-started3{
+    background: #5f27cd;
+}
+.schedule1{
+    color: #21B573;
+}
+.schedule2{
+    color: #273c75;
+}
+.schedule3{
+    color: #5f27cd ;
 }
 .top-section{
     padding: 100px;
@@ -135,11 +149,12 @@ font-weight: 600;
     width: 24px;
     height: 24px;
 }
+.seat{
+    padding-right: 25px;
+}
 .box3{
     width: 350px;
     height: 483px;
-    left: 135px;
-    top: 1102px;
     background: #FFFFFF;
     box-shadow: 0px 10px 40px grey;
     border-radius: 18px;
@@ -233,8 +248,11 @@ font-weight: 600;
     height: 369px;
     padding: 20px;
 }
-.lastbox{
+.lastbox, .lastbox-doc{
     color: ivory;
+}
+.lastbox-doc{
+    padding: 50px 100px;
 }
 .bold{
     font-size: 18px;
