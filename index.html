@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-School</title>
+    <link rel="shortcut icon" href="media/icon/Logo.png" type="image/x-icon">  <!--<p>extra favicon section</p> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <div class="container">
+    <div class="top-part">
         <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between bg-navbar">
             <div>
                 <a class="navbar-brand" href="#">
@@ -24,9 +26,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                       <a class="nav-item nav-link active" href="#">Books <span class="sr-only">(current)</span></a>
-                      <a class="nav-item nav-link nav-name" href="#">Courses</a>
-                      <a class="nav-item nav-link nav-name" href="#">Others</a>
-                      <a class="nav-item nav-link nav-name" href="#">Blog</a>
+                      <a class="nav-item nav-link nav-name" href="#courses">Courses</a>
+                      <a class="nav-item nav-link nav-name" href="#contact">Others</a>
+                      <a class="nav-item nav-link nav-name" href="#blog">Blog</a>
                       <a class="nav-item nav-link nav-name sign-in" href="#">Sign In</a>
                       
                     </div>
@@ -38,20 +40,238 @@
     <!-- top image part -->
     
 
-    <div class="container top-section">
-        <div class="row align-items-center">
-            <div class="col-md-7">
-                <h5 class="top-description-1">Are you ready to learn?</h5>
-                <h1 class="top-description-2">Learn with fun <br> on <span class="schedule">any schedule</span></h1>
-                <h5 class="top-description-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</h5> <br><br>
-                <a class="get-started" href="#">Get Started</a>
-    
+    <div class="top-section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h5 class="top-description-1">Are you ready to learn?</h5>
+                            <h1 class="top-description-2">Learn with fun <br> on <span class="schedule">any schedule</span></h1>
+                            <h5 class="top-description-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</h5> <br><br>
+                            <a class="get-started" href="#">Get Started</a>
+                
+                        </div>
+                        <div class="col-md-5">
+                          <img src="media/photos/Illustration.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h5 class="top-description-1">Are you ready to learn?</h5>
+                        <h1 class="top-description-2">Learn with fun <br> on <span class="schedule">any schedule</span></h1>
+                        <h5 class="top-description-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</h5> <br><br>
+                        <a class="get-started" href="#">Get Started</a>
+            
+                    </div>
+                    <div class="col-md-5">
+                      <img src="media/photos/library.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h5 class="top-description-1">Are you ready to learn?</h5>
+                        <h1 class="top-description-2">Learn with fun <br> on <span class="schedule">any schedule</span></h1>
+                        <h5 class="top-description-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</h5> <br><br>
+                        <a class="get-started" href="#">Get Started</a>
+            
+                    </div>
+                    <div class="col-md-5">
+                      <img src="media/photos/online fun.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-5">
-              <img src="media/photos/Illustration.png" class="d-block w-100" alt="...">
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    
+    <!-- Middle top -->
+
+    <div class="container">
+        <div class="middle-top d-flex justify-content-around align-items-center">
+            <div class="box1">
+                <img class="box-img" src="media/icon/book.png" alt="">
+                <p class="box-details-1">1500+ topics</p>
+                <p class="box-details-2">Learn Anythings</p>
+            </div>
+            <div class="box2">
+                <img class="box-img" src="media/icon/Student.png" alt="">
+                <p class="box-details-1">1800+ Students</p>
+                <p class="box-details-2">Learn Anythings</p>
+            </div>
+            <div class="box1">
+                <img class="box-img" src="media/icon/Test.png" alt="">
+                <p class="box-details-1">9K+ Test Taken</p>
+                <p class="box-details-2">Learn Anythings</p>
+            </div>
+            <div class="box1">
+                <img class="box-img" src="media/icon/Students.png" alt="">
+                <p class="box-details-1">2000+ Students</p>
+                <p class="box-details-2">Learn Anythings</p>
             </div>
         </div>
     </div>
+
+    <!-- Middle bottom -->
+
+    <div class="container middle-bottom" id="courses">
+        <h1>Online Courses</h1>
+        <br>
+        <br>
+        <div class="d-flex justify-content-around align-items-center">
+            <div class="box3">
+                <div >
+                    <img class="pyschology" src="media/photos/Morder pyschology.png" alt="">
+                    <h2>Modern Pyschology</h2>
+                    <h4>Designation</h4>
+                    <br>
+                    <a class="get-started" href="#">Buy Course</a>
+                    <br>
+                    <br>
+                    <!-- date part -->
+                    <div class="d-flex justify-content-around align-items-center">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <img class="icon-cal-peo" src="media/icon/calendar.png" alt="">
+                            <p>20 April,2021</p>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <img class="icon-cal-peo" src="media/icon/people.png" alt="">
+                            <p>60 seats</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box3">
+                <img class="pyschology" src="media/photos/Morder psyc.png" alt="">
+                <h2>Modern Pyschology</h2>
+                <h4>Designation</h4>
+                <br>
+                <a class="get-started" href="#">Buy Course</a>
+                <br>
+                <br>
+                <!-- date part -->
+                <div class="d-flex justify-content-around align-items-center">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <img class="icon-cal-peo" src="media/icon/calendar.png" alt="">
+                        <p>20 April,2021</p>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <img class="icon-cal-peo" src="media/icon/people.png" alt="">
+                        <p>60 seats</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box3">    
+                <img class="pyschology" src="media/photos/Morder pychons.png" alt="">
+                <h2>Modern Pyschology</h2>
+                <h4>Designation</h4>
+                <br>
+                <a class="get-started" href="#">Buy Course</a>
+                <br>
+                <br>
+                <!-- date part -->
+                <div class="d-flex justify-content-around align-items-center">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <img class="icon-cal-peo" src="media/icon/calendar.png" alt="">
+                        <p>20 April,2021</p>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <img class="icon-cal-peo" src="media/icon/people.png" alt="">
+                        <p>60 seats</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Testimonial -->
+
+    <div class="container" id="blog">
+        <div class="testimonial">
+            <h1 class="heading">Testimonial</h1>
+            <div class="d-flex justify-content-around align-items-center t-text">
+                <img class="man" src="media/photos/Man.png" alt="">
+                <p class="testimonial-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Aut optio dolorum est, sed pariatur rem maxime obcaecati <br> laborum eum id provident repudiandae sunt labore? Aliquam!</p>
+            </div>
+        </div>
+    
+    </div>
+
+
+        <!-- contact us / subscribe -->
+
+        <div class="aboutus" id="contact">
+            <h3 class="info">Contact Us</h3>
+            <br>
+            <div class="d-flex justify-content-center">
+              <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.gmail.com/" target="_blank" class="fa fa-google"></a>
+            <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+            </div>
+            
+          </div>
+
+    <!-- last part -->
+
+
+    <div class="last-part">
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-5 lastbox">
+                <p>Millions of people of all ages and from around <br> the world are improving their lives with us.</p>
+            </div>
+                
+        <div class="col-md-7 d-flex justify-content-around align-items-center">
+                <div class="lastbox">
+                    <p class="bold">Course</p>
+                    <p>Graphic Design</p>
+                    <p>Design Web</p>
+                    <p>Design Business</p>
+                    <p>Marketing</p>
+                    <p>Engineering</p>
+                </div>
+                <div class="lastbox">
+                    <p class="bold">Terms</p>
+                    <p>Graphic Design</p>
+                    <p>Design Web</p>
+                    <p>Design Business</p>
+                    <p>Marketing</p>
+                    <p>Engineering</p>
+                </div>
+                <div class="lastbox">
+                    <p class="bold">Useful Link</p>
+                    <p>Graphic Design</p>
+                    <p>Design Web</p>
+                    <p>Design Business</p>
+                    <p>Marketing</p>
+                    <p>Engineering</p>
+                </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <small>Copyright&copy; 2020  ||  Programming Hero</small>
+    </footer>
+
 
     
 
